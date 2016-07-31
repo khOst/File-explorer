@@ -1,0 +1,11 @@
+Create a Simple File Explorer
+
+1. Fetch data from files.json
+2. Display tree of folders
+3. Implement basic navigation with mouse (expand and collapse items in folder)
+4. Remove items/folders
+5. Add items/folders
+6. Try to cover code with tests
+
+Please add only some basic styling
+Please do not use any frameworks except those for testing
