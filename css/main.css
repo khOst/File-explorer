@@ -2,7 +2,7 @@
 
 /* General */
 body {
-    font-family: "Georgia";
+    font-family: "Georgia", Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -178,12 +178,12 @@ ul > li > input ~ span:before {
     width: 1em;
     height: 1em;;
     line-height: 1em;
-    background: url(../img/icons/folder-open) no-repeat;
+    background: url(../img/folder-open) no-repeat;
     background-size: contain;
 }
 
 ul > li > input:checked ~ span:before {
-    background-image: url(../img/icons/folder);
+    background-image: url(../img/folder);
 }
 
 /* Menu */
