@@ -11,7 +11,7 @@ function buildTreeLevel(data, parentElement) {
 
         parentElement.appendChild(node);
         if (dataElement.children) {
-            buildTreeLevel(dataElement.children, node.lastElementChild); //TODO ul shold be last child in li.children
+            buildTreeLevel(dataElement.children, node.lastElementChild);
         }
     });
 }
